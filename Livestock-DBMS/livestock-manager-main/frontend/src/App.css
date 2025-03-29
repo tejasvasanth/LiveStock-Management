@@ -1,0 +1,76 @@
+/* Base styling for the brown theme */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f1ea;
+  color: #4e342e;
+}
+
+/* Sticky Navigation for Animals Section */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #8b4513;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Table Styling in Animals Section */
+#animals {
+  padding: 40px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  background-color: #d2691e;
+  color: white;
+}
+
+th:hover {
+  background-color: #d2691e; /* Removing the translucent effect */
+}
+
+td {
+  background-color: #f9f5f2;
+}
+
+tr:nth-child(even) td {
+  background-color: #f4f1ea;
+}

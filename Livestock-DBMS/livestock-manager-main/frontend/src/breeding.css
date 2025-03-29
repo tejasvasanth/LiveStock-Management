@@ -1,0 +1,97 @@
+/* General container for the Breeding page */
+.breeding-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Add Breeding Record Button */
+.add-button {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* Form styling */
+.form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styling */
+.breeding-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.breeding-table th,
+.breeding-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.breeding-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.breeding-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.breeding-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}

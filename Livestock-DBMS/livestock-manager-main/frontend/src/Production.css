@@ -1,0 +1,149 @@
+/* General container for the Production Performance page */
+.production-performance-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Add Production Performance Button */
+  .add-btn {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form styling */
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styling */
+  .production-performance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .production-performance-table th,
+  .production-performance-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .production-performance-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .production-performance-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .production-performance-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .summary-per-animal {
+    margin-top: 40px;
+  }
+  
+  .animal-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .animal-summary-table th,
+  .animal-summary-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .animal-summary-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .animal-summary-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .animal-summary-table td {
+    color: #555;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e60000;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .production-performance-container {
+      margin: 10px;
+    }
+  
+    .form-container,
+    .production-performance-table {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .submit-btn,
+    .add-btn {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  

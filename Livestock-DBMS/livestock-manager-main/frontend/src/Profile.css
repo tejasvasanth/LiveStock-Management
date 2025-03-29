@@ -1,0 +1,27 @@
+/* Profile Page Styling */
+.container {
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .info {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  

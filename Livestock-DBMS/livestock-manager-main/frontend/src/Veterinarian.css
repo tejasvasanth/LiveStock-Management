@@ -1,0 +1,137 @@
+/* General container for the Veterinarian page */
+.veterinarian-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Add Veterinarian Button */
+  .add-btn {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    width:15%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form styling */
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Limit the maximum width */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    width:20%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styling */
+  .veterinarian-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .veterinarian-table th,
+  .veterinarian-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .veterinarian-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .veterinarian-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .veterinarian-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e60000;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .veterinarian-container {
+      margin: 10px;
+    }
+  
+    .form-container,
+    .veterinarian-table {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .submit-btn,
+    .add-btn {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  .search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  

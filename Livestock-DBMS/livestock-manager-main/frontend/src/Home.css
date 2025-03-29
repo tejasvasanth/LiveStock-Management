@@ -1,0 +1,83 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e6f4ea, #cfe9d7);
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2f855a;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #606060;
+    margin-top: 10px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .icon {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .yellow-icon {
+    color: #fbbf24; /* Yellow */
+  }
+  
+  .blue-icon {
+    color: #4299e1; /* Blue */
+  }
+  
+  .red-icon {
+    color: #f56565; /* Red */
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2f855a;
+    margin-top: 10px;
+  }
+  
+  .feature-description {
+    font-size: 0.9rem;
+    color: #606060;
+    text-align: center;
+  }
+  .get-started-button{
+    margin-top: 40px;
+    background-color: #f56565;
+    font-size: medium;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+  }

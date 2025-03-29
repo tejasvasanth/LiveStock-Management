@@ -1,0 +1,120 @@
+/* Sign Up Form Styles */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-image: url('https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg?cs=srgb&dl=pexels-grizzlybear-1198507.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(4px); /* Softens background for readability */
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.85); /* Slight transparency */
+  margin-top: 30px;
+  padding: 3rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #2f855a;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #606060;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  color: #606060;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  padding: 4px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #606060;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #2f855a;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #2f855a;
+  color: #ffffff;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #276749;
+}
+
+button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+div[variant="destructive"] {
+  color: #f56565;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+  color: #606060;
+}
+
+.text-sm .underline {
+  color: #2f855a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.relative {
+  display: inline-block;
+  color: #606060;
+}
+
+.cursor-pointer {
+  color: #2f855a;
+  cursor: pointer;
+}
